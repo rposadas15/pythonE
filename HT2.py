@@ -6,15 +6,15 @@ if contraseña == contraseña1:
 else:
     print("Contraseñas diferentes")
 
-name = input("¿Cual es tu nombre? ")
+nombre = input("¿Cual es tu nombre? ")
 genero = input("¿Cuál es tu genero (M o F)? ")
 if genero == "M":
-    if name.lower() < "m":
+    if nombre.lower() < "m":
         grupo = "A"
     else:
         grupo = "B"
 else:
-    if name.lower() > "f":
+    if nombre.lower() > "f":
         grupo = "A"
     else:
         grupo = "B"
